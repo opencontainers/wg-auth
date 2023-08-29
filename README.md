@@ -10,6 +10,13 @@ This working group will define a standard to be supported by OCI compatible regi
 
 - [TOB Proposal](https://github.com/opencontainers/tob/blob/main/proposals/wg-auth.md)
 
+## Documentation
+
+| Document | Description |
+| --- | --- |
+| [Use Cases](./docs/USE_CASES.md) | Use cases factored into the design of the working group product. |
+| [External Specs](./docs/EXTERNAL_SPECS.md) | Preexisting specifications referenced by the working group. |
+
 ## Governance
 
 Link to [governance](./GOVERNANCE.md) document.
