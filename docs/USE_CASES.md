@@ -7,12 +7,14 @@ The specification should favor designs that do not prevent future use cases and 
 ## Existing
 
 - Anonymous access
-- Various auth methods (token, basic)
-- Different types of credentials (passwords, tokens)
-- Pull/push an image
+- Various auth methods: token, basic
+- Different types of credentials: passwords, tokens
+- Different types of access: pull, push, delete
 - Cross repository blob mount
+- Attempting to use a token that has expired, received for a different repository, or a different access type
+  - Performing a head request (to verify the absence) before performing a blob post
 - Unscoped requests to `_catalog`
-- CDN integration
+- HTTP redirects and CDN integration
 
 ## Future
 
@@ -21,7 +23,7 @@ The specification should favor designs that do not prevent future use cases and 
 - Long running clients (registry mirroring, caches)
   - Timeout of stale credentials
   - Accessing multiple repositories
-- HTTP redirection (when should a client allow/reject)
+- Machine based authentication (spiffe or similar workload based attestation)
 - Certificate authority
 - Mutual TLS
 - Fine grained authentication (individual tags within a repository)
