@@ -2,6 +2,7 @@
 
 The following specifications may be referenced by the working group in the design of a new specification:
 
+- Distribution: <https://distribution.github.io/distribution/spec/auth/>
 - Docker: <https://docs.docker.com/reference/api/registry/auth/>
 - HTTP Auth: <https://datatracker.ietf.org/doc/html/rfc7235>
 - OIDC: <https://datatracker.ietf.org/doc/html/rfc6749>
